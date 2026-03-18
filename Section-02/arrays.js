@@ -34,4 +34,10 @@ console.log(newArr); //Returns a string that is the result of concatenating all 
 
 console.log(typeof newArr) //Returns the type of the variable, which is a string in this case.
 
-console.log(myArr.slice(2, 4)) //Returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included). The original array will not be modified.
+console.log("Slicing for 1,4: ", myArr.slice(1, 4)) //Returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included). The original array will not be modified.
+
+const splicing = myArr.splice(1,4) //Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place. The first parameter is the index at which to start changing the array, the second parameter is the number of elements to remove, and the third parameter (optional) is the element(s) to add to the array.
+
+console.log("Splicing for 1, 4: ", splicing) //Returns an array containing the deleted elements. If no elements are removed, an empty array is returned.
+
+console.log("Modified array: ", myArr) //Returns the modified array after splicing.
