@@ -1,27 +1,27 @@
-// const score = 400 // automatically defined number type..
-// console.log(score)
+const score = 400 // automatically defined number type..
+console.log(score)
 
-// const newScore = new Number(300); //it specially defined object of type Number
-// console.log(newScore)
+const newScore = new Number(300); //it specially defined object of type Number
+console.log(newScore)
 
-// console.log(newScore.toString())
-// console.log(newScore.toFixed(1))
+console.log(newScore.toString())
+console.log(newScore.toFixed(1))
 
-// const otherNumber = 12333.33309
-// console.log(otherNumber.toPrecision(3))
+const otherNumber = 12333.33309
+console.log(otherNumber.toPrecision(3))
 
-// const hundreds = 1000000
-// console.log(hundreds.toLocaleString()) //adds comma according to us standards at once tenth hundredth and so on places
-// console.log(hundreds.toLocaleString('en-IN')) // same but in Indian standard format
+const hundreds = 1000000
+console.log(hundreds.toLocaleString()) //adds comma according to us standards at once tenth hundredth and so on places
+console.log(hundreds.toLocaleString('en-IN')) // same but in Indian standard format
 
 
-// console.log(Math)
-// console.log(Math.PI)
-// console.log(Math.abs(-4));
-// console.log(Math.round(4,7))
-// console.log(Math.ceil(4,2))
-// console.log(Math.floor(4,7))
-// console.log(Math.max(1,3,5,7,9,100))  // outputs random numbers between 0 and 1
+console.log(Math)
+console.log(Math.PI)
+console.log(Math.abs(-4));
+console.log(Math.round(4,7))
+console.log(Math.ceil(4,2))
+console.log(Math.floor(4,7))
+console.log(Math.max(1,3,5,7,9,100))  // outputs random numbers between 0 and 1
 
 
 console.log(Math.random()*10 + 1) // outputs random numbers between 1 and 9
