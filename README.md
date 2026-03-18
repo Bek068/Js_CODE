@@ -1,7 +1,7 @@
 # JS_CODE
 
 HELLO THERE! 
-This is Day-1 of Learning JavaScript form Scratch..........
+This is Day-14 of Learning JavaScript form Scratch..........
 
 This repository is created as a commitment to myself to keep track of my daily routine of learning JavaScript.
 In this Repository, The complete set of code starting from Basic to advance will be uploaded gradually.
