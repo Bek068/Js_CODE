@@ -15,7 +15,7 @@ console.log(accountState); //It will print undefined because we have not assigne
 // displays all the deatils at once 
 console.table([accountId, accountEmail, accountPassword, accountCity])
 
-// {} acts as scope in JS 
+// {} acts as scope in JS. 
 // var is not used in js nowadays due to overriding problem. Only const and let are used to declare a new variable. var isnot used because of block scope and functional scope. 
 
 // A memory for a variable can be declared/ reserved without using the var variable in javascript.
